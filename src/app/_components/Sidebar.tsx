@@ -32,7 +32,7 @@ const sidebarDetails = [
 
 const Sidebar = () => {
   return (
-    <div className=" bg-[#FCFCFC] w-[409px] flex flex-col pt-9 gap-4 border-l border-[#E7E7E7] px-6">
+    <div className=" bg-[#FCFCFC] w-[409px] flex flex-col pt-9 gap-4 border-l border-[#E7E7E7] px-6 shadow-sidebar-shadow">
       <div className=" flex flex-row gap-4 ">
         <DeleteButton />
         <EditButton />

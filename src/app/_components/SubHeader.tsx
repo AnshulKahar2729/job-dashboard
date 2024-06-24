@@ -2,11 +2,10 @@ import React from "react";
 
 const SubHeader = () => {
   return (
-    // TODO : HERE I HAVE TRIED TO DO CONDITIONAL CLASSES BUT TS DIDN'T ALLOW
+    // TODO : HERE I HAVE TRIED TO DO CONDITIONAL CLASSES FOR ORANGE TAB BUT TS DIDN'T ALLOW
 
     <div className="  h-[67px] pl-[100px]  flex  items-center border-b-[2px] border-[#E7E7E7]">
       <div className=" flex gap-[72px] h-full">
-        {/* border-b-2 border-[#DC4A2D] */}
         <div className=" relative flex items-center z-[-10]  ">
           <h1 className=" font-semibold text-xl leading-[27px] text-[#DC4A2D]">
             Job Preview

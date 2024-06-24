@@ -5,16 +5,30 @@ import UserIcon from "./icons/UserIcon";
 import UserCheckIcon from "./icons/UserCheckIcon";
 import MessageSquareIcon from "./icons/MessageSquareIcon";
 import EyeIcon from "./icons/EyeIcon";
+import SidebarItem from "./SidebarItem";
 
-const sidebarDetails = [{
-  "Applicants" : 400
-}, {
-  "Matches" : 100
-}, {
-  "Messages" : 147
-}, {
-  "Views" : 800
-}]
+const sidebarDetails = [
+  {
+    label: "Applicants",
+    amount: 400,
+    icon: UserIcon,
+  },
+  {
+    label: "Matches",
+    icon: UserCheckIcon,
+    amount: 100,
+  },
+  {
+    label: "Messages",
+    amount: 147,
+    icon: MessageSquareIcon,
+  },
+  {
+    label: "Views",
+    amount: 800,
+    icon: EyeIcon,
+  },
+];
 
 const Sidebar = () => {
   return (
@@ -24,38 +38,16 @@ const Sidebar = () => {
         <EditButton />
       </div>
       <div className=" p-3 flex flex-col gap-4">
-        <div className=" flex flex-row items-center justify-between">
-          <div className=" p-[10px] flex  items-center gap-[10px]">
-            <UserIcon />
-            <span>Applicants</span>
-          </div>
-          <span className=" font-semibold text-xl">400</span>
-        </div>
-        <Separator />
-        <div className=" flex flex-row justify-between">
-          <div className=" p-[10px] flex items-center gap-[10px]">
-            <UserCheckIcon />
-            <span>Matches</span>
-          </div>
-          <span className=" font-semibold text-xl">100</span>
-        </div>
-        <Separator />
-        <div className=" flex flex-row justify-between">
-          <div className=" p-[10px] flex items-center gap-[10px]">
-            <MessageSquareIcon />
-            <span>Messages</span>
-          </div>
-          <span className=" font-semibold text-xl">147</span>
-        </div>
-        <Separator />
-        <div className=" flex flex-row justify-between">
-          <div className=" p-[10px] flex items-center gap-[10px]">
-            <EyeIcon />
-            <span>Views</span>
-          </div>
-          <span className=" font-semibold text-xl">800</span>
-        </div>
-        <Separator />
+        {sidebarDetails.map((sidebarDetail, index) => (
+          <>
+            <SidebarItem
+              label={sidebarDetail.label}
+              amount={sidebarDetail.amount}
+              icon={sidebarDetail.icon}
+            />
+            {index !== sidebarDetails.length - 1 && <Separator />}
+          </>
+        ))}
       </div>
     </div>
   );

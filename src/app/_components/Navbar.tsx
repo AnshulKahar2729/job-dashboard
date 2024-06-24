@@ -15,7 +15,7 @@ const Navbar = () => {
 
       <div className=" flex gap-2 items-center">
         <div className=" relative">
-          <MessageSquareIcon className="" />
+          <MessageSquareIcon  />
           <DotIcon
             size={50}
             className=" z-[100] absolute bottom-[-5px] left-[-4px] text-[#DC4A2D]"

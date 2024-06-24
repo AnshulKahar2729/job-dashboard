@@ -19,7 +19,6 @@ const IndexPage = () => {
         </div>
         <Sidebar />
       </div>
-      <div className=" h-[72px]"></div>
     </div>
   );
 };

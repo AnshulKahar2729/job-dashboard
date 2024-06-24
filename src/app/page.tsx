@@ -10,7 +10,7 @@ const IndexPage = () => {
   return (
     <div className="   ">
       <SubHeader />
-      <div className=" flex flex-row  ">
+      <div className=" flex flex-row   ">
         <div className=" flex-1 ">
           <JobHeader />
           <JobInfo />

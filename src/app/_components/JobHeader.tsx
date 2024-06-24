@@ -11,16 +11,18 @@ const JobHeader = () => {
         <h1 className=" font-semibold text-[35px] leading-[47.25px]">
           Senior Product Designer
         </h1>
-        <DotIcon className=" text-[#888888]"/>
-        <h1 className=" text-[14px] font-medium leading-[18.9px] text-[#888888]">posted 2 days ago</h1>
+        <DotIcon className=" w-4 h-4 text-[#888888]" />
+        <h1 className=" text-[14px] font-medium leading-[18.9px] text-[#888888]">
+          posted 2 days ago
+        </h1>
         <JobStatusBadge />
       </div>
-      <div className=" flex flex-row gap-4">
+      <div className=" flex flex-row gap-4 items-center">
         <div className=" flex gap-2">
           <MarkerPin />
           <h1 className=" font-medium text-[#5D5D5D]">Deleware, USA</h1>
         </div>
-        <div>{/* ellipese */}</div>
+        <DotIcon className=" w-4 h-4 text-[#888888]" />
         <div className=" flex flex-row gap-3">
           <CoinsStackedIcon />
           <h1 className=" font-medium text-[#5D5D5D]">$300k-$400k</h1>

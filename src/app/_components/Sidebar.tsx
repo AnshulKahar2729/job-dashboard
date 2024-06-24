@@ -2,6 +2,9 @@ import React, { FC } from "react";
 import { DeleteButton, EditButton } from "./Button";
 import { Separator } from "@/components/ui/separator";
 import UserIcon from "./icons/UserIcon";
+import UserCheckIcon from "./icons/UserCheckIcon";
+import MessageSquareIcon from "./icons/MessageSquareIcon";
+import EyeIcon from "./icons/EyeIcon";
 
 const Sidebar = () => {
   return (
@@ -21,7 +24,7 @@ const Sidebar = () => {
         <Separator />
         <div className=" flex flex-row justify-between">
           <div className=" p-[10px] flex items-center gap-[10px]">
-            <UserIcon />
+            <UserCheckIcon />
             <span>Matches</span>
           </div>
           <span className=" font-semibold text-xl">100</span>
@@ -29,7 +32,7 @@ const Sidebar = () => {
         <Separator />
         <div className=" flex flex-row justify-between">
           <div className=" p-[10px] flex items-center gap-[10px]">
-            <UserIcon />
+            <MessageSquareIcon />
             <span>Messages</span>
           </div>
           <span className=" font-semibold text-xl">147</span>
@@ -37,7 +40,7 @@ const Sidebar = () => {
         <Separator />
         <div className=" flex flex-row justify-between">
           <div className=" p-[10px] flex items-center gap-[10px]">
-            <UserIcon />
+            <EyeIcon />
             <span>Views</span>
           </div>
           <span className=" font-semibold text-xl">800</span>

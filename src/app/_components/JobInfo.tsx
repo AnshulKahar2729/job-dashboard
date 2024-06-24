@@ -5,9 +5,8 @@ import AdobeXD from "../../../public/adobexd.png";
 import AdobeIllustrator from "../../../public/adobe_illustrator.png";
 
 const JobInfo = () => {
-  // TODO : REMOVE HARDCODING WIDTH
   return (
-    <div className=" pl-[100px] flex flex-row gap-16 pt-9 pb-8">
+    <div className=" border-b border-[#E7E7E7] pl-[100px] flex flex-row gap-16 pt-9 pb-8">
       <div className=" flex flex-col gap-2 w-[170px]">
         <h1 className=" font-medium text-sm leading-[18.9px] text-[#6E6D6D]">
           Skills required

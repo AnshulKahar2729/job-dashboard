@@ -9,7 +9,7 @@ interface SidebarItemProps {
 const SidebarItem: FC<SidebarItemProps> = ({ label, amount, icon: Icon }) => {
   return (
     <div className=" flex flex-row items-center justify-between">
-      <div className=" p-[10px] flex  items-center gap-[10px]">
+      <div className=" p-[10px] flex  items-center lg:gap-[10px]">
         <Icon />
         <span className=" text-[#4F4F4F]">{label}</span>
       </div>

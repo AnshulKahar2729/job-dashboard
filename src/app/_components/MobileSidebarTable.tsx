@@ -35,6 +35,7 @@ const MobileSidebarTable = () => {
       {sidebarDetails.map((sidebarDetail, index) => (
         <>
           <SidebarItem
+            key={sidebarDetail.label}
             label={sidebarDetail.label}
             amount={sidebarDetail.amount}
             icon={sidebarDetail.icon}

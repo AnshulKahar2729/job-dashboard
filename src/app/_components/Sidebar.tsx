@@ -6,6 +6,16 @@ import UserCheckIcon from "./icons/UserCheckIcon";
 import MessageSquareIcon from "./icons/MessageSquareIcon";
 import EyeIcon from "./icons/EyeIcon";
 
+const sidebarDetails = [{
+  "Applicants" : 400
+}, {
+  "Matches" : 100
+}, {
+  "Messages" : 147
+}, {
+  "Views" : 800
+}]
+
 const Sidebar = () => {
   return (
     <div className=" bg-[#FCFCFC] w-[409px] flex flex-col pt-9 gap-4 border-l border-[#E7E7E7] px-6">

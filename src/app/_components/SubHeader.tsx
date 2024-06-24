@@ -4,7 +4,7 @@ const SubHeader = () => {
   return (
     // TODO : HERE I HAVE TRIED TO DO CONDITIONAL CLASSES BUT TS DIDN'T ALLOW
 
-    <div className="  h-[67px] pl-[100px]  flex  items-center border-b border-[#E7E7E7]">
+    <div className="  h-[67px] pl-[100px]  flex  items-center border-b-[2px] border-[#E7E7E7]">
       <div className=" flex gap-[72px] h-full">
         {/* border-b-2 border-[#DC4A2D] */}
         <div className=" relative flex items-center z-[-10]  ">

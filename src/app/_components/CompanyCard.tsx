@@ -4,7 +4,7 @@ import AtlassianImage from "../../../public/atlassian.png";
 
 const CompanyCard = () => {
   return (
-    <div className=" pl-[100px] py-[34px] flex flex-col gap-4 w-[736px]">
+    <div className=" lg:pl-[100px] px-5 lg:px-0 py-[34px] flex flex-col gap-4 lg:w-[736px] ">
       <div className=" py-[10px] pr-[10px] flex items-center gap-3">
         <Image
           src={AtlassianImage}
@@ -17,7 +17,7 @@ const CompanyCard = () => {
           Atlassian
         </h1>
       </div>
-      <div className=" grid grid-cols-2 gap-12">
+      <div className=" grid lg:grid-cols-2 grid-cols-1 gap-12">
         <div className=" flex flex-col gap-2">
           <h1 className=" text-[#6E6D6D] text-sm leading-[18.9px]">
             Company size

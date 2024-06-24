@@ -2,7 +2,7 @@ import React from "react";
 
 const JobDescription = () => {
   return (
-    <div className=" pl-[100px] flex flex-col gap-2 py-8 border-b border-[#E7E7E7]">
+    <div className=" lg:pl-[100px] px-5 lg:px-0 flex flex-col gap-2 py-8 border-b border-[#E7E7E7]">
       <h1 className=" text-[#6E6D6D] font-medium text-sm leading-[18.9px]">
         About the job
       </h1>

@@ -32,8 +32,8 @@ const sidebarDetails = [
 
 const Sidebar = () => {
   return (
-    <div className="min-h-screen bg-[#FCFCFC] w-[409px] flex flex-col pt-9 gap-4 border-l border-[#E7E7E7] px-6 shadow-sidebar-shadow">
-      <div className=" flex flex-row gap-4 ">
+    <div className=" hidden  min-h-screen bg-[#FCFCFC] w-[409px] md:flex flex-col pt-9 gap-4 border-l border-[#E7E7E7] px-6 shadow-sidebar-shadow">
+      <div className=" flex xl:flex-row flex-col gap-4 ">
         <DeleteButton />
         <EditButton />
       </div>

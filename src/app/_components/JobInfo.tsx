@@ -6,7 +6,7 @@ import AdobeIllustrator from "../../../public/adobe_illustrator.png";
 
 const JobInfo = () => {
   return (
-    <div className=" border-b border-[#E7E7E7] pl-[100px] flex flex-row gap-16 pt-9 pb-8">
+    <div className=" border-b border-[#E7E7E7] lg:pl-[100px] px-5 lg:px-0 flex lg:flex-row flex-col lg:gap-16 gap-8 pt-9 pb-8">
       <div className=" flex flex-col gap-2 w-[170px]">
         <h1 className=" font-medium text-sm leading-[18.9px] text-[#6E6D6D]">
           Skills required
@@ -62,3 +62,6 @@ const JobInfo = () => {
 };
 
 export default JobInfo;
+
+
+// TODO : DISCUSS THE GAP AND SPACING OF MOBILE DESIGN

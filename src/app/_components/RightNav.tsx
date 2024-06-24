@@ -4,7 +4,6 @@ import Image from "next/image";
 import ChevronDownIcon from "./icons/ChevronDownIcon";
 import UserLogo from "../../../public/UserLogo.png";
 import { DotIcon } from "lucide-react";
-// import { BellIcon } from 'lucide-react'
 
 const RightNav = () => {
   return (

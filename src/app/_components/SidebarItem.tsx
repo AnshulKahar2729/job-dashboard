@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import UserIcon from "./icons/UserIcon";
 
 interface SidebarItemProps {
   label: string;
